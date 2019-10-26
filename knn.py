@@ -63,5 +63,7 @@ dataset = getdata('i_data_sample_30.csv')  #getdata function call with csv file 
 train_dataset, test_dataset = shuffle(dataset) #train test data split
 K = 5                                          # Assumed K value
 knn_predict(test_dataset, train_dataset, K)   
-print test_dataset
-print "Accuracy : ",accuracy(test_dataset)
+print(test_dataset)
+print("Accuracy : ",accuracy(test_dataset))
+
+
