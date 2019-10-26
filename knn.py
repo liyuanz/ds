@@ -64,6 +64,5 @@ train_dataset, test_dataset = shuffle(dataset) #train test data split
 K = 5                                          # Assumed K value
 knn_predict(test_dataset, train_dataset, K)   
 print(test_dataset)
-print("Accuracy : ",accuracy(test_dataset))
-
+print("Accuracy is: ",accuracy(test_dataset))
 
